@@ -1,0 +1,19 @@
+{
+  "name": "inverntory-backend",
+  "version": "1.0.0",
+  "description": "Inventory-managment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Harkesh saini",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^6.6.2",
+    "nodemailer-sendgrid": "^1.0.3"
+  }
+}
